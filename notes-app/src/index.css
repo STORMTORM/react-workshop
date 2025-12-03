@@ -1,0 +1,65 @@
+body {
+  font-family: Arial;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  padding: 20px;
+  margin:auto;
+}
+
+.noteForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.noteTitle, .noteText {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.addButton {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.notesList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.noteCard {
+  background: #f3f2f2;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.noteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.noteContent {
+  margin-top: 5px;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
